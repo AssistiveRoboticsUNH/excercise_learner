@@ -14,6 +14,7 @@ public class PlayerStats {
     private long timeElapsed;
     private double accuracy;
     private int n_repeats;
+    private int score;
 
     public PlayerStats() {
         startTime = System.nanoTime();
@@ -47,7 +48,11 @@ public class PlayerStats {
 
     public void setNRepeats(int n_repeats) { this.n_repeats = n_repeats; }
 
+    public void setScore(int score) { this.score = score; }
+
     public int getNRepeats() {return n_repeats + 1;}
+
+    public int getScore() {return score;}
 
     public void setProgress(double p) {
         progress = p;

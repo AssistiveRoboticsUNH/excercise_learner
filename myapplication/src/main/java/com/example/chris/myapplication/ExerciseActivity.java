@@ -189,7 +189,26 @@ public class ExerciseActivity extends RosActivity implements View.OnTouchListene
             @Override
             public void run() {
 
-                txtOverlay.setHeaderText(Constants.CUE2 + playerStats.getNRepeats());
+                txtOverlay.setHeaderText(Constants.CUE2 + playerStats.getNRepeats() + " times.");
+
+            }
+        });
+    }
+
+    public void onlyDisplay() {
+        programStatus = ProgramStatus.EXERCISING;
+        playerStats.setProgress(0);
+
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                if (playerStats.getScore() > 0) {
+                    txtOverlay.setHeaderText("Your score is " + playerStats.getScore() + ". Calibrate now if necessary.");
+                    playerStats.setScore(0);
+                }
+                else {
+                    txtOverlay.setHeaderText(Constants.CUE3);
+                }
 
             }
         });

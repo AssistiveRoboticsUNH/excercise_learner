@@ -40,13 +40,11 @@ public class StateSubscriber implements NodeMain {
                         break;
 
                     case 1:
-                    case 2: case 10: case 20: case 30:
-//                        try {
-//                            housingActivity.clear();
-//                        }
-//                        catch (Exception e) {
-//                    }
+                    case 10: case 20: case 30:
                         housingActivity.beginExercise();
+                        break;
+                    case 2: case 100:
+                        housingActivity.onlyDisplay();
                         break;
                 }
             }
@@ -57,6 +55,14 @@ public class StateSubscriber implements NodeMain {
             @Override
             public void onNewMessage (final std_msgs.Int32 msg) {
                 housingActivity.getPlayerStats().setNRepeats(msg.getData());
+            }
+        });
+
+        Subscriber<std_msgs.Int32> scoreSubscriber = connectedNode.newSubscriber("/exercise/score", std_msgs.Int32._TYPE);
+        scoreSubscriber.addMessageListener(new MessageListener<std_msgs.Int32>() {
+            @Override
+            public void onNewMessage (final std_msgs.Int32 msg) {
+                housingActivity.getPlayerStats().setScore(msg.getData());
             }
         });
 

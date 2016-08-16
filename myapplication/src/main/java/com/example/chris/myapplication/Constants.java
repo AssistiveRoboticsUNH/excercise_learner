@@ -40,5 +40,6 @@ public class Constants {
     public static final SimpleVector[] chestPoints = {q1, q2, q3, q4, q5, q6, q7, q8};
 
     public static final String CUE1 = "The model is now demonstrating the exercise you are to perform";
-    public static final String CUE2 = "Now it is your turn to perform the exercise. Number of times: ";
+    public static final String CUE2 = "Now it is your turn to perform the exercise. You have practiced this task ";
+    public static final String CUE3 = "Now you can see your arm motions. Calibrate if necessary.";
 }
