@@ -17,7 +17,7 @@ catkin_make
 Then, open the exercise_learner folder in Android Studio and you should be ready to go.  
   
 Downloadable APK (5/10/2016)  
-https://drive.google.com/open?id=0B-AlPlQGo15zdVhhVFRGUkVtVnM  
+https://drive.google.com/file/d/0BxhtAJAynX3eSlJRcFhhZlhuN00/view?usp=sharing
   
 To install via the link above, you must enable installation from "Unknown Sources" in the Security tab of the phone.
  Then you can simply click the link, download the app, and open the APK to install on any Android device.
