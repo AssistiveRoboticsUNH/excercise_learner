@@ -1,3 +1,5 @@
+The code is based on https://github.com/ylmeng/exercise_learner with some modifications made in summer 2016.
+
 Setup
 ====
 To further develop this repository, one must have:  
@@ -9,14 +11,14 @@ To further develop this repository, one must have:
   
 Clone this repository in the src folder of a catkin_workspace:  
 ```
-git clone https://github.com/idkm23/exercise_learner  
+git clone https://github.com/ylmeng/exercise_learner  
 cd ..  
 catkin_make
 ```  
 
 Then, open the exercise_learner folder in Android Studio and you should be ready to go.  
   
-Downloadable APK (5/10/2016)  
+Downloadable APK (8/16/2016)  
 https://drive.google.com/file/d/0BxhtAJAynX3eSlJRcFhhZlhuN00/view?usp=sharing
   
 To install via the link above, you must enable installation from "Unknown Sources" in the Security tab of the phone.
