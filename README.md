@@ -1,4 +1,4 @@
-The code is based on https://github.com/ylmeng/exercise_learner with some modifications made in summer 2016.
+The code is based on Christopher Munroe's code https://github.com/idkm23/exercise_learner with some modifications made in summer 2016.
 
 Setup
 ====
@@ -16,10 +16,12 @@ cd ..
 catkin_make
 ```  
 
-Then, open the exercise_learner folder in Android Studio and you should be ready to go.  
+Then, open the exercise_learner folder in Android Studio and you should be ready to go. After you finish modifying the code, Android Studio can install the program on your Android device, if you connect it to your computer with a USB calble. You must enable installation from "Unknown Sources" in the Security setting.
   
 Downloadable APK (8/16/2016)  
 https://drive.google.com/file/d/0BxhtAJAynX3eSlJRcFhhZlhuN00/view?usp=sharing
   
 To install via the link above, you must enable installation from "Unknown Sources" in the Security tab of the phone.
  Then you can simply click the link, download the app, and open the APK to install on any Android device.
+ 
+
