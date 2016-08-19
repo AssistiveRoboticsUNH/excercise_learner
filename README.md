@@ -24,4 +24,12 @@ https://drive.google.com/file/d/0BxhtAJAynX3eSlJRcFhhZlhuN00/view?usp=sharing
 To install via the link above, you must enable installation from "Unknown Sources" in the Security tab of the phone.
  Then you can simply click the link, download the app, and open the APK to install on any Android device.
  
+Run the app
+===
+Before running the app, make sure your Android device is connected to the same network service as your computer. Some wifi service blocks certain ports and it may fail. I tested it at home (comcast) and it works. The eduroam on campus does not support it though. It is safer to use our own router.
 
+- Launch an exercise interface first. Please refer to https://github.com/ylmeng/exercise_interface_client
+- On your Android device, click the icon "Exercise Learner".
+- If it prompts for IP address, type in the correct one. The port should be 11311.
+- Then you should be able to see a 3D model. 
+- You need to restart the program if you restart your exercise interface from the computer.
