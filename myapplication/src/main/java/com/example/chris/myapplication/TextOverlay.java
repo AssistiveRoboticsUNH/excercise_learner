@@ -9,7 +9,7 @@ import android.graphics.Paint;
 import android.util.Log;
 import android.view.View;
 
-import edu.uml.odgboxtherapy.R;
+import edu.uml.exerciseLearner.R;
 import glfont.TexturePack;
 
 /**

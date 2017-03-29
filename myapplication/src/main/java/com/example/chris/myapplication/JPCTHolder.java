@@ -7,7 +7,7 @@ import com.threed.jpct.SimpleVector;
 import com.threed.jpct.World;
 
 import bones.samples.android.SkeletonHelper;
-import edu.uml.odgboxtherapy.R;
+import edu.uml.exerciseLearner.R;
 import raft.jpct.bones.AnimatedGroup;
 import raft.jpct.bones.BonesIO;
 

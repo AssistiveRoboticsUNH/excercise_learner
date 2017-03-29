@@ -14,7 +14,7 @@ import com.threed.jpct.TextureManager;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import edu.uml.odgboxtherapy.R;
+import edu.uml.exerciseLearner.R;
 import raft.jpct.bones.Animated3D;
 
 /**
